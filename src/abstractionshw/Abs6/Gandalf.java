@@ -11,5 +11,10 @@ public class Gandalf extends Wizard {
     public void race() {
         System.out.println("Race:   Human");
     }
+
+    @Override
+    public void speak() {
+        System.out.println("You shall not pass!");
+    }
     
 }

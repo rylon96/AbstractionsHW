@@ -40,6 +40,7 @@ public class AbstractionsHW {
         System.out.println("Gandalf");
         gandalf.race();
         gandalf.magicType();
+        gandalf.speak();
         
     }
     
