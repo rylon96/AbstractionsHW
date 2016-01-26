@@ -9,7 +9,7 @@ public class WaterBottle extends Bottle {
 
     @Override
     public void thickness() {
-        System.out.println(0.3 + " cm");
+        System.out.println(0.3 + " cm Thick");
     }
     
 }
