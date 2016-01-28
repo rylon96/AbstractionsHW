@@ -3,12 +3,12 @@ package abstractionshw.Abs6;
 public class Gandalf extends Wizard {
 
     @Override
-    public void magicType() {
+    public void getMagicType() {
         System.out.println("Magic Type:  Light Magic");
     }
 
     @Override
-    public void race() {
+    public void getRace() {
         System.out.println("Race:   Human");
     }
 

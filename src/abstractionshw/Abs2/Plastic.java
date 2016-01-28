@@ -2,6 +2,6 @@ package abstractionshw.Abs2;
 
 public abstract class Plastic {
     
-    public abstract void thickness();
+    public abstract void getThickness();
     
 }

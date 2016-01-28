@@ -3,12 +3,12 @@ package abstractionshw.Abs2;
 public class WaterBottle extends Bottle {
 
     @Override
-    public void volume() {
+    public void getVolume() {
         System.out.println(16+" oz");
     }
 
     @Override
-    public void thickness() {
+    public void getThickness() {
         System.out.println(0.3 + " cm Thick");
     }
     

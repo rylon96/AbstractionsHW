@@ -2,6 +2,6 @@ package abstractionshw.Abs4;
 
 public abstract class Robot {
     
-    public abstract void intellegence();
+    public abstract void getIntellegence();
     
 }

@@ -2,6 +2,6 @@ package abstractionshw.Abs2;
 
 public abstract class Bottle extends Plastic {
     
-    public abstract void volume();
+    public abstract void getVolume();
     
 }

@@ -18,28 +18,28 @@ public class AbstractionsHW {
         Gandalf gandalf = new Gandalf();
         
         System.out.println("Wisconsin");
-        wi.landmass();
-        wi.numberOfCities();
+        wi.getLandmass();
+        wi.getNumberOfCities();
         System.out.println("");
         System.out.println("Dasani Water bottle");
-        dasani.thickness();
-        dasani.volume();
+        dasani.getThickness();
+        dasani.getVolume();
         System.out.println("");
         System.out.println("Empire State Building");
-        ESB.numberOfFloors();
-        ESB.coordinates();
+        ESB.getNumberOfFloors();
+        ESB.getCoordinates();
         System.out.println("");
         System.out.println("Optimus Prime");
-        OP.intellegence();
-        OP.weaponry();
+        OP.getIntellegence();
+        OP.getWeaponry();
         System.out.println("");
         System.out.println("Luke Skywalker");
-        LS.lightsaberColor();
-        LS.higherPower();
+        LS.getLightsaberColor();
+        LS.getHigherPower();
         System.out.println("");
         System.out.println("Gandalf");
-        gandalf.race();
-        gandalf.magicType();
+        gandalf.getRace();
+        gandalf.getMagicType();
         gandalf.speak();
         
     }
